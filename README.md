@@ -1,2 +1,3 @@
-# ow-conf
+## whisk-config
+
 Collections of my local development setup.
