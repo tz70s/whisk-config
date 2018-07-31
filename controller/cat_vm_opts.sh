@@ -10,3 +10,7 @@ echo "-Dwhisk.controller.https.truststore-path=$NGINX_ANSIBLE_FILES/controller-o
 echo "-Dwhisk.controller.https.truststore-password=openwhisk"
 echo "-Dwhisk.controller.https.truststore-flavor=PKCS12"
 echo "-Dwhisk.controller.https.client-auth=true"
+
+echo "-Dwhisk.spi.LoadBalancerProvider=whisk.core.loadBalancer.future.SingletonLoadBalancer"
+echo "-Dwhisk.info.date=now"
+echo "-Dwhisk.info.build-no=12"
